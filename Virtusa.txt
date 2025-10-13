@@ -1,1 +1,2 @@
-Welcome to Virtusa Training
+Welcome to Virtusa Java Training.
+Incollaboration with Revature.
