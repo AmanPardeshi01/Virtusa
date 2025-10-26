@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d4dbd02-0df5-41a8-af5b-2da6836ced63" name="Changes" comment="" />
+    <list default="true" id="6d4dbd02-0df5-41a8-af5b-2da6836ced63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/Easy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/Easy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/FindDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/RemoveDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/RemoveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/ReverseQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/SortName$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/SortName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/SortName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/WordFCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollectionsPractice/WordFCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/Practice.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,40 +60,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArmstrongNumber.executor": "Run",
-    "Application.BankAcc.executor": "Run",
-    "Application.BattleArena.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Que2.executor": "Run",
-    "Application.abstarctExample.executor": "Run",
-    "Application.bankAcc.executor": "Run",
-    "Application.breakAndContinue.executor": "Run",
-    "Application.calculator.executor": "Run",
-    "Application.checkPrime.executor": "Run",
-    "Application.dayCheck.executor": "Run",
-    "Application.demo.executor": "Run",
-    "Application.evenNo.executor": "Run",
-    "Application.fibonacci.executor": "Debug",
-    "Application.interfaceExample.executor": "Run",
-    "Application.largrestNumber.executor": "Run",
-    "Application.multilevelInheritance.executor": "Run",
-    "Application.myDetails.executor": "Run",
-    "Application.oneToFive.executor": "Run",
-    "Application.swapNumber.executor": "Run",
-    "Application.swapWithoutVariable.executor": "Run",
-    "Application.totalScore.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Aman C Pardeshi/Desktop/VirtusaGit/Virtusa/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArmstrongNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAcc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BattleArena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Que2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.abstarctExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bankAcc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.breakAndContinue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checkPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.evenNo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibonacci.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.interfaceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.largrestNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multilevelInheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myDetails.executor&quot;: &quot;Run&quot;,
+    &quot;Application.oneToFive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swapNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swapWithoutVariable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.totalScore.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Aman C Pardeshi/Desktop/VirtusaGit/Virtusa/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6d4dbd02-0df5-41a8-af5b-2da6836ced63" name="Changes" comment="" />
