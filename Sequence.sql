@@ -1,0 +1,9 @@
+CREATE TABLE employee3 ( empid INT AUTO_INCREMENT, PRIMARY KEY (empid) );
+ALTER TABLE employee3 AUTO_INCREMENT = 100;
+
+INSERT INTO employee3 VALUES ();
+INSERT INTO employee3 VALUES ();
+
+SELECT * FROM employee3;
+
+
