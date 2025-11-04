@@ -1,0 +1,42 @@
+/* h2{
+    color: firebrick;
+} */
+
+/* p{
+    color: darkgreen;
+} */
+
+.heading{
+    color: darkorange;
+}
+
+#paragraph{
+    color: darkcyan;
+}
+
+.pro{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.bg-property{
+    text-align: justify;
+    height: 500px;
+    width: 800px;
+    background-color:burlywood;
+    background-image: url('https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png');
+    background-repeat:no-repeat;
+    background-position:100px;
+    background-attachment: fixed;
+    overflow: auto;
+
+}
+
+
+h2 ~ p {
+    color: purple;
+    font-weight: bold;
+}

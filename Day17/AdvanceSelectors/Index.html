@@ -1,0 +1,113 @@
+<style>
+    input[required] {
+        border: 2px solid red;
+    }
+</style>
+<form>
+    <h3>Advance Selector 1</h3>
+    <input type="text" required placeholder="Name (Required)">
+    <input type="email" placeholder="Email (Optional)">
+</form>
+
+<hr>
+
+<style>
+    input[type="password"] {
+        border-color: yellowgreen;
+    }
+</style>
+<form>
+    <h3>Advance Selector 2</h3>
+    <input type="email" placeholder="Email (Optional)">
+    <input type="password" required placeholder="Enter Password (Required)">
+</form>
+
+<hr>
+
+<style>
+    a[href^="https"] {
+        color: green;
+    }
+</style>
+<h3>Advance Selector 3</h3>
+<a href="https:google.com">Secured Link 1</a>
+<a href="https:youtube.com">Secured Link 2</a>
+
+<hr>
+
+<style>
+    img[src$=".jpg"] {
+        border: 3px solid blue;
+    }
+</style>
+<h3>Advance Selector 4</h3>
+<img src="https://cdn.pixabay.com/photo/2025/10/17/12/07/bird-9900094_1280.jpg" width="100">
+<img src="https://cdn.pixabay.com/photo/2025/10/06/15/41/fire-9877220_1280.jpg" width="100">
+
+
+<hr>
+
+
+<style>
+a[href *= "login"] {
+color: orange;
+}
+</style>
+<h3>Advance Selector 5</h3>
+<a href="https://mysite.com/login">Login</a>
+<a href="https://mysite.com/register">Register</a>
+
+
+<hr>
+<br>
+<br>
+<br>
+<hr>
+
+
+<style>
+  button:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  input:focus {
+    outline: none;
+    border: 2px solid purple;
+  }
+
+    li:nth-child(2) {
+    color: blue;
+}
+
+    li:nth-child(odd) { background: #f0f0f0; }
+    li:nth-child(even) { background: #d0ffd0; }
+
+     div:not(.highlight) {
+    color: #808080;
+  }
+
+</style>
+
+<button>Hover Me</button>
+
+<input type="text" placeholder="Click to focus">
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+
+<ul>
+  <li>Row 1</li>
+  <li>Row 2</li>
+  <li>Row 3</li>
+  <li>Row 4</li>
+</ul>
+
+
+<div class="highlight">Highlighted Text</div>
+<div>Normal Text</div>
+<div>Another Normal Text</div>
