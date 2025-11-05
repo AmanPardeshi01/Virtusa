@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Combinator Selectors Example -->
+    <!-- <style>
+    div>p {
+        color: blue;
+    }
+
+    div p {
+        color: green;
+    }
+</Style>
+
+<div>
+    <p>Direct child paragraph (styled)</p>
+    <section>
+        <p>Nested paragraph (not styled)</p>
+    </section>
+</div>
+
+<div>
+    <p>Paragraph inside div (styled)</p>
+    <section>
+        <p>Nested paragraph (also styled)</p>
+    </section>
+</div> -->
+
+
+
+    <!-- Funcation and Mordern Selectors Example -->
+
+    <!-- <style>
+    :is(h1, h2, h3) {
+        color: darkblue;
+    }
+
+    :where(section, article) {
+        margin: 5;
+        padding: 5;
+    }
+
+    div:has(img) {
+        border: 2px solid;
+        padding: 5px;
+    }
+
+</style>
+
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+<h3>Minor Heading</h3>
+
+<section>Section element</section>
+<article>Article element</article>
+
+<div>
+    <img src="https://cdn.pixabay.com/photo/2025/10/09/14/30/tajikistan-9883716_1280.jpg" alt="">
+</div>
+<div>
+    No image here
+</div> -->
+
+
+
+
+    <!-- Root Selector Example -->
+    <!-- <style>
+    :root {
+        --main-color: #4caf50;
+        --text-color:white;
+        --padding: 15px;
+    }
+
+    body {
+        background-color: var(--main-color);
+        color: var(--text-color);
+        padding: var(--padding);
+        font-family: Arial;
+    }
+
+    button {
+        background-color: var(--text-color);
+        color: var(--main-color);
+        border: none;
+        padding: var(--padding);
+        cursor: pointer;
+    }
+</style> -->
+
+    <!-- Fallback Values Example -->
+    <!--
+If a varibale isn't defined, we can provide a fallback value like this:
+h1{
+    color: var(--heading-color, black);
+}
+If --heading-color-- is not defined, the heading will be black. -->
+
+
+    <!-- <style>
+    .container{
+        display:flex;
+        flex-direction:column;
+        background-color: dodgerblue;
+    }
+
+    .container  div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+</style>
+
+<div class="container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>  -->
+
+
+
+
+    <!-- Responsive Design Example -->
+    <!--
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex-conatiner {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-item {
+            background-color: lightcoral;
+            padding: 20px;
+            margin: 10px;
+            font-size: 30px;
+            text-align: center;
+            width: 100%;
+            border: 2px solid black;
+        }
+
+        @media (max-width:600px) {
+            .flex-conatiner {
+                flex-direction: column;
+            }
+    </style>
+
+    <div class="flex-conatiner">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+    </div> -->
+
+
+
+    <!-- Grid -->
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas:
+                "header header"
+                "menu content"
+                "footer footer";
+            grid-template-columns: 1fr 3fr;
+            gap: 3px;
+            background-color: #2196F3;
+            padding: 5px;
+        }
+
+        .container div {
+            background-color: white;
+            padding: 10px;
+        }
+
+        .container div.header {
+            grid-area: header;
+            text-align: center;
+        }
+    </style>
+
+    <div class="container'
+        <div class=" header">
+        <h2>My Header</h2>
+    </div>
+
+    <div class="menu">
+        <a href="#">Link 1</a><br>
+        <a href="#">Link 2</a><br>
+        <a href="#">Link 3</a>
+    </div>
+
+    <div class="content">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl </p>
+
+        <div class="footer">
+            <h4>Footer</h4>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
