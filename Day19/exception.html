@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="JavaScript" href="exception3.js">
+</head>
+
+<body>
+
+
+    <script>
+
+        // class ValidationError extends Error {
+        //     constructor(message) {
+        //         super(message);
+        //         this.name = "Validation Error";
+        //     }
+        // }
+
+        // try {
+        //     throw new ValidationError("Invalid input data!");
+        // } catch (error) {
+        //     console.log(error.name);
+        //     console.log(error.message);
+        // }
+
+
+        function divide(a, b) {
+            if (b === 0) {
+                throw new Error("Cannot Divide By Zero.");
+            }
+            return a / b;
+        }
+
+        try {
+            console.log(divide(10, 2)); // Outputs: 5
+            console.log(divide(10, 0)); // Throws an error
+        } catch (error) {
+            console.error("Error:", error.message);
+        }
+
+        finally {
+            console.log("Execution completed.");
+        }
+
+
+    </script>
+
+</body>
+
+</html>

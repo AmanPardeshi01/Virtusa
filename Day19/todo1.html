@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Todo List</h2>
+    <input type="itemInput" placeholder="New Item">
+    <button id="addBtn">Add</button>
+    <ul id="todo"></ul>
+
+    <script>
+        const input = document.getElementById('itemInput');
+        const addBtn = document.getElementById('addBtn');
+        const ul = document.getElementById('todo');
+
+        addBtn.addEventListener('click', () => {
+            const text = input.value.trim();
+            if (!text) return;
+
+            const li = document.createElement('li');
+            li.textContent = text;
+
+            const removeBtn = document.createElement('button');
+            removeBtn.textContent = 'Remove';
+            removeBtn.style.marginLeft = '8px';
+            removeBtn.addEventListener('click', () => li.remove());
+
+
+            li.appendChild(removeBtn);
+            ul.appendChild(li);
+            input.value = '';
+
+        });
+        // })
+    </script>
+
+</body>
+
+</html>

@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-/* Navbar */
+
 .navbar {
   grid-area: navbar;
   background: white;
@@ -28,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-/* Header */
+
 .header {
   color: white;
   grid-area: header;
@@ -38,7 +38,7 @@ body {
   font-weight: bold;
 }
 
-/* Sidebar */
+
 .sidebar {
   grid-area: sidebar;
   background: #E5EFFF;
@@ -66,7 +66,7 @@ body {
   background: #1b6e66;
 }
 
-/* Main body */
+
 .body {
   grid-area: body;
   background: #e9c46a;
@@ -74,7 +74,7 @@ body {
   background-color: #E5EFFF;
 }
 
-/* Week grid */
+
 .week {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +105,7 @@ body {
   border-radius: 3px;
 }
 
-/* Footer */
+
 .footer {
   grid-area: footer;
   background: white;

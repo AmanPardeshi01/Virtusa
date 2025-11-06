@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <section id="intro">
+            <p>Welcome !</p>
+        </section> I
+        <section id="list">
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <script>
+        // Inspect the DOM tree from JavaScript:
+        console.log("document.documentElement:", document.documentElement); // <html
+        console.log("document.body:", document.body);
+        console.log("body child nodes:", document.body.childNodes);
+        // Walk down to a node
+        console.log("intro paragraph text:", document.getElementById('intro')
+            .firstElementChild.textContent);
+        // class Person {
+        //     constructor(name, age) {
+        //         this.name = name;
+        //         this.age = age;
+        //     }
+        //     // Method
+        //     greet() {
+        //         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+        //     }
+
+        // }
+
+        // // Create object
+        // const person1 = new Person("Aman", 22);
+        // person1.greet();
+        // // Output: Hello, my name is Remya and I am 30 years old.
+
+
+        // let person = {
+        //     name: "Aman",
+        //     age: 22,
+        //     greet: function () {
+        //         console.log("Hello, " + this.name);
+        //     }
+        // };
+
+        // person.greet(); // Output: Hello, Remya
+
+
+
+
+
+
+
+
+
+        // class Animal {
+        //     constructor(name) {
+        //         this.name = name;
+
+        //     }
+
+        //     speak() {
+        //         console.log(${`this.name`} makes a noise.);
+
+        //     }
+        // }
+
+        // class Dog extends Animal {
+        //     constructor(name, breed) {
+        //         super(name); // Call parent constructor
+        //         this.breed = breed;
+        //     }
+        //     speak() {
+        //         console.log(${`this.name } barks. `);
+
+        //         const dog1 = new Dog("Buddy", "Golden Retriwver");
+        //         dog1.speak(); // Output: Buddy barks.
+        //     }
+        // }
+
+
+        //  Encapsulation Example
+        // class BankAccount {
+        //     #balance = 0;
+        //     deposit(amount) {
+        //         this.#balance += amount;
+        //     }
+
+        //     get balance() {
+        //         return this.#balance;
+        //     }
+
+        //     set balance(amount){
+        //         this.#balance +=amount;
+        //     }
+        // }
+
+        // const acc = new BankAccount();
+        // acc.deposit(500);
+        // acc.balance = 1000;
+        // console.log(acc.balance); // 500
+        // console.log(acc.#balance); Error: Private field
+
+
+        // Overriding in JavaScript
+        // class Shape {
+        //     area(){
+        //         return 0;
+        //     }
+        // }
+
+        // class Circle extends Shape{
+        //     constructor(r){
+        //         super();
+        //         this.r = r;
+        //     }
+
+        //     area(){
+        //         return Math.PI * this.r * this.r;
+        //     }
+        // }
+
+        // const circle = new Circle(5);
+        // console.log(circle.area());
+
+
+
+        // Abstraction Example
+        // class Car{
+
+        //     start(){
+        //         this.#checkFuel();
+        //         this.#igniteEngine();
+        //         console.log("Car Started");
+        //     }
+
+        //     #igniteEngine(){
+        //         console.log("Engine Ignited....");
+        //     }
+
+        //     #checkFuel(){
+        //         console.log("Fuel Checked.....");
+        //     }
+        // }
+
+        // const car = new Car();
+        // car.start();
+        // car.#igniteEngine(); // Error: Private method
+
+
+
+        // // Static Keyword Example
+        // class MathUtil {
+        //     static add(a, b) {
+        //         return a + b;
+        //     }
+
+        // }
+        // console.log(MathUtil.add(5, 10)); // 15
+
+
+        // Loops in JavaScript
+        // let cars = ["BMW", "Audi", "Mercedes"];
+        // // For  loop
+        // for(i=0; i < cars.length; i++){
+        //     console.log(cars[i]);
+        // }
+
+        // console.log("-----");
+
+        // //For each loop
+        // for(let car of cars){
+        //     console.log(car);
+        // }
+
+
+        // Arrow Function
+
+        // const multiply = (a, b) => a * b;
+        // console.log(multiply(5,5));
+
+        // const greet = () => console.log("Hello There!");
+        // greet();
+
+        // const numbers = [1,2,3,4,5];
+        // const squares = numbers.map(n => n * 2);
+        // console.log(squares);
+
+        const numbers1 = [1, 2, 3, 4, 5];
+        // const result = numbers1.filter(n => n > 2);  // this return the value
+        // console.log(result);
+
+        // const numbers2 = [1,2,3,4,5];
+        // const result1 = numbers2.find(n => n > 2); // this retun the count
+        // console.log(result1);
+
+        // const ages = [1, 2, 3, 4, 5];
+        // const hasMinor = ages.some(age => age < 18); // this retun the true / false
+        // console.log(hasMinor);
+
+
+        // const ages = [1, 2, 3, 4, 5];
+        // const allAges = ages.every(age => age >= 18); // this return boolean value
+        // console.log(allAges);
+
+
+
+
+
+        // <!-- save as dom-structure.html and open in browser -- >
+
+
+
+        // <body>
+        // NodeLis
+
+
+    </script>
+</body>
+
+</html>
