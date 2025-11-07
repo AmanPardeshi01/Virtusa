@@ -1,0 +1,81 @@
+# --- Node.js / Express ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# --- React Frontend ---
+# dependencies
+frontend/node_modules/
+
+# production build
+frontend/build/
+
+# misc
+frontend/.env
+frontend/.cache/
+frontend/.next/
+frontend/out/
+
+# --- System / IDE ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode / JetBrains / others
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# --- Testing ---
+coverage/
+jest-cache/
+jest-test-results.json
+test-results.xml
+
+# --- MongoDB dumps ---
+*.bson
+*.metadata.json
+
+# --- Optional ---
+# Lock files (if your team prefers not to commit them)
+# package-lock.json
+# yarn.lock
