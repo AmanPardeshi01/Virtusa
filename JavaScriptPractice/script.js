@@ -33,7 +33,7 @@ console.log(num);
 console.log(arr);
 console.log(arr.indexOf("Kajal"));
 console.log(arr.includes("Aman"));
-console.log(arr.slice(0,3)); 
+console.log(arr.slice(0,3));
 console.log(arr);
 console.log(arr.splice(0,2,"Abhishek"));
 console.log(arr);
@@ -63,3 +63,36 @@ let users = [10, 20, 30, 40];
 console.log(users.find(u => u > 25)); // 30
 console.log(users.findIndex(u => u > 30)); // 2
 
+
+
+
+console.log(a);
+var a = 10;
+
+
+class BankAccount {
+  constructor(owner, balance) {
+    this.owner = owner;
+    this.balance = balance; // "_" indicates private
+  }
+
+  deposit(amount) {
+    this._balance += amount;
+  }
+
+  getBalance() {
+    return this._balance;
+  }
+}
+
+let account = new BankAccount("Aman", 1000);
+account.deposit(500);
+console.log(account.getBalance()); // 1500
+
+
+
+
+
+// Arrow Function
+const add = (a , b) => a+ b;
+console.log(add(5, 10));
