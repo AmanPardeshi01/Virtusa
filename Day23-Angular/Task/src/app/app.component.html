@@ -1,0 +1,148 @@
+<!-- src/app/app.component.html -->
+<style>
+  :root {
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+    --red-to-pink-to-purple-vertical-gradient: linear-gradient(
+      180deg,
+      var(--orange-red) 0%,
+      var(--vivid-pink) 50%,
+      var(--electric-violet) 100%
+    );
+    --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
+      90deg,
+      var(--orange-red) 0%,
+      var(--vivid-pink) 50%,
+      var(--electric-violet) 100%
+    );
+  }
+
+  h1 {
+    font-size: 3.125rem;
+    color: var(--gray-900);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    color: var(--gray-700);
+  }
+
+  main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .angular-logo {
+    max-width: 9.2rem;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 3rem;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .divider {
+    width: 1px;
+    background: var(--red-to-pink-to-purple-vertical-gradient);
+    margin-inline: 0.5rem;
+  }
+
+  .pill-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: flex-start;
+  }
+
+  .pill {
+    display: flex;
+    align-items: center;
+    background: color-mix(in srgb, var(--bright-blue) 5%, transparent);
+    color: var(--bright-blue);
+    padding-inline: 0.75rem;
+    padding-block: 0.375rem;
+    border-radius: 2.75rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 0.73rem;
+    margin-top: 1.5rem;
+  }
+
+  @media screen and (max-width:650px) {
+    .content {
+      flex-direction: column;
+      width: max-content;
+    }
+
+    .divider {
+      height: 1px;
+      width: 100%;
+      background: var(--red-to-pink-to-purple-horizontal-gradient);
+      margin-block: 1.5rem;
+    }
+  }
+</style>
+
+<main class="main">
+  <div class="content">
+    <header>
+      <h1>Hello, {{ title }}</h1>
+      <p>Congratulations! Your app is running. 🎉</p>
+    </header>
+
+    <hr />
+
+    <section>
+      <h2>1) RxJS & Reactive Programming</h2>
+      <app-search></app-search>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>2) Memory Management</h2>
+      <app-take-until></app-take-until>
+      <app-async-pipe></app-async-pipe>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>3) RxJS Operators</h2>
+      <app-operators></app-operators>
+    </section>
+
+    <hr />
+
+    <section>
+      <h2>4) Error Handling</h2>
+      <app-error-handling></app-error-handling>
+    </section>
+  </div>
+</main>
+
+<router-outlet></router-outlet>
