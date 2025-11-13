@@ -1,0 +1,9 @@
+<h2>Product List</h2>
+
+<div *ngIf="loading">Loading...</div>
+
+<ul *ngIf="!loading">
+  <li *ngFor="let product of products">
+    <strong>{{ product.title }}</strong> - {{ product.price }}
+  </li>
+</ul>
