@@ -20,9 +20,9 @@ export class AppComponent {
   title = 'Day24_Injection';
   products: any[] = [];
 
-  constructor(public productService: ProductService) {}
+  constructor(public productService: ProductService) { }
 
-  ngOnInit(){
+  ngOnInit() {
     this.productService.getProducts().subscribe({
       next: data => this.products = data,
       error: err => console.error('Error', err)
