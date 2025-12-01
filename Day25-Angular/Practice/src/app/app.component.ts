@@ -9,8 +9,8 @@ import { TempComponent } from "./temp/temp.component";
   imports: [RouterOutlet, DashboardComponent, TempComponent],
   // templateUrl: './app.component.html',
   template:`
-  <!-- <h1 style="color: red;"> Starting learning  {{tech}}.</h1> -->
- <!-- <app-dashboard/> -->
+  <h1 style="color: red;"> Starting learning  {{tech}}.</h1>
+ <app-dashboard/>
   <app-temp/>
 
  `,
